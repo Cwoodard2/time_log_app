@@ -85,8 +85,8 @@ class _TimeRecorderPageState extends State<TimeRecorderPage> {
             Column(children: [
               for (var item in _recordedTimes)
                 SizedBox(
-                  width: 300,
-                  height: 400,
+                  width: 500,
+                  height: 75,
                   child: RecordedActivity(item: item),
                 )
             ]),
